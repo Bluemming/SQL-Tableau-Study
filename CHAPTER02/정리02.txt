@@ -1,0 +1,24 @@
+CHAPTER02
+
+[02] SQL 기본 명령어
+
+2-1 기본 명령어 분류
+
+DDL (Data Definition Language)
+: 테이블 생성, 변경, 삭제
+
+DML (Data Manipulation Language)
+: 데이터 삽입, 조회, 수정, 삭제
+
+DCL (Data Control Language)
+: 특정 사용자에게 데이터 접근 권한 부여, 제거
+
+TCL (Transaction Control Language)
+: DML 명령어를 실행, 취소, 임시 저장
+
+2-2 DDL 테이블 정리
+테이블 : 행, 열로 이루어진 2차원 표
+각 열마다 데이터 형식 정해져 있음, 반드시 1가지 데이터 형식만 저장
+
+단일 라인 주석(--) : -- 뒤의 모든 내용 주석
+블록 주석(/**/) : /* (내용) */ 모든 내용이 주석 처리
